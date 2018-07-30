@@ -16,7 +16,7 @@ Settings
 
 Moved to settings_.
 
-.. _settings: http://cookiecutter-django.readthedocs.io/en/latest/settings.html
+.. _settings: https://github.com/smb-h/Django-Kit/tree/master/config/settings
 
 Basic Commands
 --------------
