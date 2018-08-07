@@ -76,6 +76,13 @@ THIRD_PARTY_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'rest_framework',
+    'django_filters',
+
+    # Utilities
+    
+    # Django Filters
+    'django_filters',
+
 ]
 LOCAL_APPS = [
     'developer_kit.users.apps.UsersAppConfig',
@@ -186,10 +193,10 @@ TEMPLATES = [
             # https://docs.djangoproject.com/en/dev/ref/settings/#template-debug
             # https://docs.djangoproject.com/en/dev/ref/settings/#template-loaders
             # https://docs.djangoproject.com/en/dev/ref/templates/api/#loader-types
-            'loaders': [
-                'django.template.loaders.filesystem.Loader',
-                'django.template.loaders.app_directories.Loader',
-            ],
+            # 'loaders': [
+            #     'django.template.loaders.filesystem.Loader',
+            #     'django.template.loaders.app_directories.Loader',
+            # ],
             # https://docs.djangoproject.com/en/dev/ref/settings/#template-context-processors
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -334,5 +341,15 @@ CKEDITOR_CONFIGS = {
         ]),
     }
 }
+
+
+# Django Rest Framework
 # ------------------------------------------------------------------------------
+
+
+
+
+
+# ------------------------------------------------------------------------------
+
 
